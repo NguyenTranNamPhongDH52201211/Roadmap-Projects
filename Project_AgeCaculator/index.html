@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Age Caculator</title>
+</head>
+<body class="h-screen flex items-center justify-center ">
+    <div class="container h-3/5 w-3/5 flex flex-col items-center justify-center  border border-gray-500 rounded-md">
+        <h1 class="text-4xl  pb-5 font-medium">Age Caculator</h1>
+        <div class="place_caculate flex flex-col gap-2 w-2/5">
+            <span class="font-normal">Enter your birth date:</span>
+            <input type="date" id="birthDate" class="w-full text-center py-1 border border-gray-300 rounded-md p-2"/>
+            <button class="px-2 py-2 bg-black border rounded-md text-white" id="btn_CalAge">Caculate</button>
+        </div>
+        <p id="place_age" class="text-lg"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
